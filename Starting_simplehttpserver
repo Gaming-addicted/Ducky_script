@@ -1,14 +1,14 @@
 REM Script 2:
 REM Written By:- autodidact_28
 REM  
-REM Work:-Opening terminal and starting simple http server
+REM WORK:-OPENING TERMINAL AND STARTING SIMPLE HTTP SERVER
 DELAY 1000
 CTRL ALT T
 DELAY 1000
 STRING python -m http.server 4040
 ENTER
 GUI DOWN
-REM for getting ip address to access remotely
+REM FOR GETTING IP ADDRESS TO ACCESS REMOTELY
 DELAY 200
 CTRL ALT T
 DELAY 1000
